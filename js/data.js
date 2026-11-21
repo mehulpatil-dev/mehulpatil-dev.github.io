@@ -11,19 +11,20 @@ const portfolioProjects = [
     category: "Python",
     description: "A CLI management system for vehicle servicing, customers, mechanics, bookings, assignments, invoices, and reports.",
     technologies: ["Python", "MySQL", "Pandas", "Matplotlib"],
-    github: "#",
+    github: "https://github.com/mehulpatil-dev/GarageManagementSystem-CLI",
     demo: "#",
     number: "01"
   },
-  // {
-  //   title: "Social Downloader Bot",
-  //   category: "Automation",
-  //   description: "A Telegram bot for downloading social-media content with metadata, quality selection, queues, temporary files, and asynchronous download handling.",
-  //   technologies: ["Python", "Pyrogram", "yt-dlp", "Telegram"],
-  //   github: "#",
-  //   demo: "#",
-  //   number: "02"
-  // },
+  {
+    title: "Telegram Auto Approve Bot",
+    category: "Automation",
+    description: "An advanced Telegram bot that automates group and channel join request approvals with customizable approval timers, welcome messages, mass approval, multi-session management, broadcasting, and channel statistics.",
+    technologies: ["Python", "Pyrogram", "Pyromod", "MongoDB", "AsyncIO", "Telegram API"],
+    github: "https://github.com/mehulpatil-dev/AutoApproveBot-telegram",
+    demo: "#",
+    number: "02"
+  }
+  },
   {
     title: "Future Project",
     category: "Java",
@@ -31,7 +32,7 @@ const portfolioProjects = [
     technologies: ["Java", "OOP", "DSA"],
     github: "#",
     demo: "#",
-    number: "02"
+    number: "03"
   },
   {
     title: "Future Cybersecurity Project",
@@ -40,6 +41,6 @@ const portfolioProjects = [
     technologies: ["Linux", "Networking", "Security"],
     github: "#",
     demo: "#",
-    number: "03"
+    number: "04"
   }
 ];
